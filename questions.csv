@@ -1,0 +1,196 @@
+﻿,Topic,Question,Difficulty
+1,Array,https://leetcode.com/problems/two-sum ,Easy
+2,Array,https://leetcode.com/problems/median-of-two-sorted-arrays/  ,Hard
+3,Two Pointers,https://leetcode.com/problems/container-with-most-water/ ,Medium
+4,"Two Pointers, Hash Table",https://leetcode.com/problems/longest-substring-without-repeating-characters/ ,Medium
+5,Two Pointers,https://leetcode.com/problems/reverse-string ,Easy
+6,Two Pointers,https://leetcode.com/problems/trapping-rain-water/ ,Hard
+7,Two Pointers,https://leetcode.com/problems/3sum/,
+8,Two Pointers,https://leetcode.com/problems/remove-duplicates-from-sorted-array/,
+9,Two Pointers,https://leetcode.com/problems/reverse-vowels-of-a-string/ ,Easy
+10,Hash Table,https://leetcode.com/problems/jewels-and-stones/ ,Easy
+11,Hash Table,https://leetcode.com/problems/top-k-frequent-elements/ ,Medium
+12,Hash Table,https://leetcode.com/problems/single-number/ ,Easy
+13,Hash Table,https://leetcode.com/problems/encode-and-decode-tinyurl/ ,Medium
+14,Hash Table,https://leetcode.com/problems/happy-number/ ,Medium
+15,Hash Table,https://leetcode.com/problems/group-anagrams/ ,Medium
+16,Hash Table,https://leetcode.com/problems/valid-anagram/ ,Easy
+17,Hash Table,https://leetcode.com/problems/daily-temperatures/ ,Medium
+18,Hash Table,https://leetcode.com/problems/subarray-sum-equals-k/ ,Medium
+19,Hash Table,https://leetcode.com/problems/sort-characters-by-frequency/ ,Medium
+20,Hash Table,https://leetcode.com/problems/valid-sudoku/ ,Medium
+21,Hash Table,https://leetcode.com/problems/repeated-dna-sequences/ ,Medium
+22,Binary Search,https://leetcode.com/problems/sqrtx/ ,Easy
+23,Binary Search,https://leetcode.com/problems/guess-number-higher-or-lower/ ,Easy
+24,Binary Search,https://leetcode.com/problems/search-in-rotated-sorted-array/,
+25,Binary Search,https://leetcode.com/problems/first-bad-version/ ,Easy
+26,Binary Search,https://leetcode.com/problems/find-peak-element/ ,Medium
+27,Binary Search,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ ,Medium
+28,Binary Search,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/ ,Medium
+29,Binary Search,https://leetcode.com/problems/find-k-closest-elements/,
+30,Binary Search,https://leetcode.com/problems/closest-binary-search-tree-value/,
+31,Binary Search,https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/ ,Medium
+32,Greedy,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/ ,Easy
+33,Greedy,https://leetcode.com/problems/queue-reconstruction-by-height/ ,Medium
+34,Greedy,https://leetcode.com/problems/remove-duplicate-letters ,Hard
+35,Greedy,https://leetcode.com/problems/meeting-rooms-ii/,
+36,DP,https://leetcode.com/problems/maximum-subarray ,Easy
+37,DP,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/ ,Easy
+38,DP,https://leetcode.com/problems/climbing-stairs/ ,Easy
+39,DP,https://leetcode.com/problems/counting-bits/ ,Medium
+40,DP,https://leetcode.com/problems/palindromic-substrings/ ,Medium
+41,DP,https://leetcode.com/problems/longest-arithmetic-sequence/ ,Medium
+42,DP,https://leetcode.com/problems/longest-palindromic-substring/ ,Medium
+43,DP,https://leetcode.com/problems/regular-expression-matching/ ,Hard
+44,Divide and Conquer,https://leetcode.com/problems/median-of-two-sorted-arrays/ ,Hard
+45,Divide and Conquer,https://leetcode.com/problems/merge-k-sorted-lists/,
+46,Divide and Conquer,https://leetcode.com/problems/kth-largest-element-in-an-array/,
+47,BackTracking,https://leetcode.com/problems/generate-parentheses/ ,Medium
+48,BackTracking,https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ,Medium
+49,Segment Tree,https://leetcode.com/problems/the-skyline-problem/,
+50,Segment Tree,https://leetcode.com/problems/count-of-smaller-numbers-after-self/,
+51,DP,https://leetcode.com/problems/house-robber/ ,Easy
+52,DP,https://leetcode.com/problems/maximum-product-subarray/ ,Medium
+53,DP,https://leetcode.com/problems/perfect-squares/ ,Medium
+54,DP,https://leetcode.com/problems/word-break/,
+55,DP,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/,
+56,Tree,https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/ ,Easy
+57,Tree,https://leetcode.com/problems/invert-binary-tree/ ,Easy
+58,Tree,https://leetcode.com/problems/binary-search-tree-iterator/ ,Medium
+59,Tree,https://leetcode.com/problems/merge-two-binary-trees/ ,Easy
+60,Tree,https://leetcode.com/problems/diameter-of-binary-tree/ ,Easy
+61,Tree,https://leetcode.com/problems/maximum-binary-tree/submissions/ ,Medium
+62,Tree,https://leetcode.com/problems/minimum-absolute-difference-in-bst/ ,Easy
+63,Tree,https://leetcode.com/problems/serialize-and-deserialize-bst/ ,Medium
+64,Tree,https://leetcode.com/problems/serialize-and-deserialize-binary-tree/ ,Hard
+65,DFS,https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/ ,Easy
+66,DFS,https://leetcode.com/problems/same-tree/ ,Easy
+67,DFS,https://leetcode.com/problems/maximum-depth-of-n-ary-tree/ ,Easy
+68,DFS,https://leetcode.com/problems/symmetric-tree/ ,Easy
+69,DFS,https://leetcode.com/problems/number-of-islands/ ,Medium
+70,DFS,https://leetcode.com/problems/decode-string/ ,Medium
+71,DFS,https://leetcode.com/problems/distribute-coins-in-binary-tree/ ,Medium
+72,DFS,https://leetcode.com/problems/reconstruct-itinerary/ ,Medium
+73,TOP 50,https://leetcode.com/problems/lru-cache/ ,Medium
+74,TOP 50,https://leetcode.com/problems/merge-intervals/ ,Medium
+75,TOP 50,https://leetcode.com/problems/valid-parentheses/ ,Easy
+76,TOP 50,https://leetcode.com/problems/unique-email-addresses/ ,Easy
+77,TOP 50,https://leetcode.com/problems/find-median-from-data-stream/ ,Hard
+78,TOP 50,https://leetcode.com/problems/game-of-life/ ,Medium
+79,TOP 50,https://leetcode.com/problems/next-permutation/ ,Medium
+80,TOP 50,https://leetcode.com/problems/add-strings/ ,Easy
+81,TOP 50,https://leetcode.com/problems/summary-ranges/ ,Medium
+82,TOP 50,https://leetcode.com/problems/spiral-matrix/ ,Medium
+83,TOP 50,https://leetcode.com/problems/flatten-nested-list-iterator/ ,Medium
+84,TOP 50,https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/ ,Easy
+85,TOP 50,https://leetcode.com/problems/plus-one/ ,Easy
+86,TOP 50,https://leetcode.com/problems/longest-arithmetic-sequence/ ,Medium
+87,TOP 50,https://leetcode.com/problems/longest-consecutive-sequence/ ,Hard
+88,TOP 50,https://leetcode.com/problems/island-perimeter/ ,Easy
+89,DP,https://leetcode.com/problems/continuous-subarray-sum/ ,Medium
+90,DP,https://leetcode.com/problems/unique-paths/ ,Medium
+91,Tree,https://leetcode.com/problems/validate-binary-search-tree/ ,Medium
+92,Tree,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ ,Medium
+93,Tree,https://leetcode.com/problems/binary-tree-right-side-view/ ,Medium
+94,DP,https://leetcode.com/problems/maximal-rectangle/ ,Hard
+95,Binary Search,https://leetcode.com/problems/intersection-of-two-arrays/submissions/ ,Easy
+96,Binary Search,https://leetcode.com/problems/divide-two-integers/ ,Medium
+97,Tree,https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/ ,Medium
+98,Graph,https://leetcode.com/problems/as-far-from-land-as-possible/ ,Medium
+99,Two pointers,https://leetcode.com/problems/merge-sorted-array/ ,Easy
+100,Hash Table,https://leetcode.com/problems/insert-delete-getrandom-o1/ ,Medium
+101,Hash Table,https://leetcode.com/problems/find-duplicate-file-in-system/ ,Medium
+102,DP,https://leetcode.com/problems/arithmetic-slices/ ,Medium
+103,DP,https://leetcode.com/problems/count-numbers-with-unique-digits/ ,Medium
+104,Greedy,https://leetcode.com/problems/queue-reconstruction-by-height/ ,Medium
+105,Greedy,https://leetcode.com/problems/task-scheduler/ ,Medium
+106,Greedy,https://leetcode.com/problems/jump-game/ ,Medium
+107,DP,https://leetcode.com/problems/decode-ways/ ,Medium
+108,DP,https://leetcode.com/problems/wildcard-matching/,
+109,Greedy,https://leetcode.com/problems/assign-cookies/ ,Easy
+110,DP,https://leetcode.com/problems/burst-balloons/submissions/ ,Hard
+111,DFS,https://leetcode.com/problems/path-sum/ ,Easy
+112,DFS,https://leetcode.com/problems/binary-tree-level-order-traversal/ ,Medium
+113,DFS,https://leetcode.com/problems/flood-fill/ ,Easy
+114,DFS,https://leetcode.com/problems/clone-graph/ ,Medium
+115,BFS,https://leetcode.com/problems/the-maze/ ,Medium
+116,DFS,https://leetcode.com/problems/robot-room-cleaner/ ,Hard
+117,DFS,https://leetcode.com/problems/cracking-the-safe/ ,Hard
+118,DFS,https://leetcode.com/problems/24-game/ ,Hard
+119,Graph,https://leetcode.com/problems/number-of-islands-ii/ ,Hard
+120,Tree,https://leetcode.com/problems/range-sum-query-mutable/ ,Medium
+121,Tree,https://leetcode.com/problems/range-sum-query-immutable/ ,Easy
+122,Tree,https://leetcode.com/problems/count-of-smaller-numbers-after-self/ ,Hard
+123,Tree,https://leetcode.com/problems/count-of-range-sum/ ,Hard
+124,Tree,https://leetcode.com/problems/binary-tree-paths/ ,Easy
+125,Hash Table,https://leetcode.com/problems/logger-rate-limiter/ ,Easy
+126,Top 50,https://leetcode.com/problems/isomorphic-strings/ ,Easy
+127,Top 50,https://leetcode.com/problems/backspace-string-compare/ ,Easy
+128,Top 50,https://leetcode.com/problems/strobogrammatic-number/ ,Easy
+129,Top 50,https://leetcode.com/problems/rotated-digits/ ,Easy
+130,Top 50,https://leetcode.com/problems/add-two-numbers/ ,Medium
+131,Top 50,https://leetcode.com/problems/time-based-key-value-store/ ,Medium
+132,Top 50,https://leetcode.com/problems/count-complete-tree-nodes ,Medium
+133,Top 50,https://leetcode.com/problems/campus-bikes/ ,Medium
+134,Top 50,https://leetcode.com/problems/split-array-largest-sum/ ,Hard
+135,Top 50,https://leetcode.com/problems/design-search-autocomplete-system/ ,Hard
+136,Top 50,https://leetcode.com/problems/count-of-smaller-numbers-after-self/ ,Hard
+137,Top 50,https://leetcode.com/problems/insert-interval/ ,Hard
+138,Top 50,https://leetcode.com/problems/design-snake-game/ ,Medium
+139,Top 50,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/ ,Medium
+140,Top 50,https://leetcode.com/problems/increasing-triplet-subsequence/ ,Medium
+141,Top 50,https://leetcode.com/problems/different-ways-to-add-parentheses/ ,Medium
+142,Top 50,https://leetcode.com/problems/campus-bikes-ii/ ,Medium
+143,Top 50,https://leetcode.com/problems/campus-bikes-ii/,
+144,Top 50,https://leetcode.com/problems/shortest-way-to-form-string/,
+145,Hash Table,https://leetcode.com/articles/contains-duplicate ,Easy
+146,Binary Search,https://leetcode.com/problems/heaters/ ,Easy
+147,Binary Search,https://leetcode.com/problems/random-pick-with-weight/ ,Medium
+148,Two Pointer,https://leetcode.com/problems/minimum-window-substring/ ,Hard
+149,Two Pointer,https://leetcode.com/problems/subarray-product-less-than-k/ ,Medium
+150,Two Pointer,https://leetcode.com/problems/interval-list-intersections/ ,Medium
+151,DFS,https://leetcode.com/problems/pacific-atlantic-water-flow/ ,Medium
+152,BFS,https://leetcode.com/problems/walls-and-gates/ ,Medium
+153,DFS,https://leetcode.com/problems/course-schedule/ ,Medium
+154,Graph,https://leetcode.com/problems/course-schedule-ii/ ,Medium
+155,Graph,https://leetcode.com/problems/graph-valid-tree/ ,Medium
+156,Graph,https://leetcode.com/problems/surrounded-regions/ ,Medium
+157,Union Find,https://leetcode.com/problems/sentence-similarity-ii/ ,Medium
+158,BFS,https://leetcode.com/problems/word-ladder/ ,Medium
+159,DP,https://leetcode.com/problems/bomb-enemy/ ,Medium
+160,DP,https://leetcode.com/problems/partition-equal-subset-sum/ ,Medium
+161,DP,https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ ,Medium
+162,DP,https://leetcode.com/problems/edit-distance/ ,Hard
+163,DP,https://leetcode.com/problems/delete-operation-for-two-strings/ ,Medium
+164,DP,https://leetcode.com/problems/largest-rectangle-in-histogram/ ,Hard
+165,Tree,https://leetcode.com/problems/longest-univalue-path/,
+166,Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/ ,Medium
+167,Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ ,Medium
+168,Tree,https://leetcode.com/problems/balanced-binary-tree/ ,Easy
+169,Tree,https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/ ,Medium
+170,Tree,https://leetcode.com/problems/search-in-a-binary-search-tree/ ,Easy
+171,Tree,https://leetcode.com/problems/insert-into-a-binary-search-tree/ ,Medium
+172,Tree,https://leetcode.com/problems/split-bst/ ,Medium
+173,Tree,https://leetcode.com/problems/kth-smallest-element-in-a-bst/ ,Medium
+174,Tree,https://leetcode.com/problems/inorder-successor-in-bst-ii/ ,Medium
+175,DP,https://leetcode.com/problems/number-of-corner-rectangles/ ,Medium
+176,"DP, DFS",https://leetcode.com/problems/android-unlock-patterns/ ,Medium
+177,Tree,https://leetcode.com/problems/binary-tree-maximum-path-sum/ ,Hard
+178,DP,https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/,
+179,DP,https://leetcode.com/problems/maximal-square/ ,Medium
+180,Stack,https://leetcode.com/problems/evaluate-reverse-polish-notation/ ,Medium
+181,"Hash Table, Tree",https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/ ,Medium
+182,TOP 50,https://leetcode.com/problems/strobogrammatic-number-ii/ ,Medium
+183,TOP 50,https://leetcode.com/problems/odd-even-jump/,
+184,TOP 50,https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/,
+185,TOP 50,https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/ ,Hard
+186,TOP 50,https://leetcode.com/problems/implement-trie-prefix-tree/solution/ ,Medium
+187,TOP 50,https://leetcode.com/problems/license-key-formatting/ ,Easy
+188,TOP 50,https://leetcode.com/problems/bulls-and-cows/ ,Easy
+189,TOP 50,https://leetcode.com/problems/student-attendance-record-i/ ,Easy
+190,"Graph, Dijkstra",https://leetcode.com/problems/network-delay-time/ ,Medium
+191,"Tree, DFS",https://leetcode.com/problems/delete-nodes-and-return-forest/ ,Medium
+192,"Tree, DFS",https://leetcode.com/problems/flip-equivalent-binary-trees/ ,Medium
+193,String,https://leetcode.com/problems/encode-and-decode-strings/ ,Medium
+194,,https://leetcode.com/problems/find-and-replace-in-string/ ,Medium
+195,,https://leetcode.com/problems/brace-expansion-ii/ ,Hard
