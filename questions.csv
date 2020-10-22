@@ -1,25 +1,28 @@
 ﻿,Topic,Question,Difficulty
-1,Array,https://leetcode.com/problems/two-sum ,Easy
-2,Array,https://leetcode.com/problems/median-of-two-sorted-arrays/  ,Hard
-3,Two Pointers,https://leetcode.com/problems/container-with-most-water/ ,Medium
-4,"Two Pointers, Hash Table",https://leetcode.com/problems/longest-substring-without-repeating-characters/ ,Medium
-5,Two Pointers,https://leetcode.com/problems/reverse-string ,Easy
-6,Two Pointers,https://leetcode.com/problems/trapping-rain-water/ ,Hard
-7,Two Pointers,https://leetcode.com/problems/3sum/,
-8,Two Pointers,https://leetcode.com/problems/remove-duplicates-from-sorted-array/,
-9,Two Pointers,https://leetcode.com/problems/reverse-vowels-of-a-string/ ,Easy
-10,Hash Table,https://leetcode.com/problems/jewels-and-stones/ ,Easy
-11,Hash Table,https://leetcode.com/problems/top-k-frequent-elements/ ,Medium
-12,Hash Table,https://leetcode.com/problems/single-number/ ,Easy
-13,Hash Table,https://leetcode.com/problems/encode-and-decode-tinyurl/ ,Medium
-14,Hash Table,https://leetcode.com/problems/happy-number/ ,Medium
-15,Hash Table,https://leetcode.com/problems/group-anagrams/ ,Medium
-16,Hash Table,https://leetcode.com/problems/valid-anagram/ ,Easy
+1,Array,https://leetcode.com/problems/two-sum ,Easy, done
+2,Array,https://leetcode.com/problems/median-of-two-sorted-arrays/  ,Hard, done
+3,Two Pointers,https://leetcode.com/problems/container-with-most-water/ ,Medium, done
+4,"Two Pointers, Hash Table",https://leetcode.com/problems/longest-substring-without-repeating-characters/ ,Medium done
+5,Two Pointers,https://leetcode.com/problems/reverse-string ,Easy done
+6,Two Pointers,https://leetcode.com/problems/trapping-rain-water/ ,Hard done
+7,Two Pointers,https://leetcode.com/problems/3sum/, done
+8,Two Pointers,https://leetcode.com/problems/remove-duplicates-from-sorted-array/, done
+9,Two Pointers,https://leetcode.com/problems/reverse-vowels-of-a-string/ ,Easy done
+10,Hash Table,https://leetcode.com/problems/jewels-and-stones/ ,Easy, done
+11,Hash Table,https://leetcode.com/problems/top-k-frequent-elements/ ,Medium, # use heap, done
+12,Hash Table,https://leetcode.com/problems/single-number/ ,Easy, done
+13,Hash Table,https://leetcode.com/problems/encode-and-decode-tinyurl/ ,Medium, done
+14,Hash Table,https://leetcode.com/problems/happy-number/ ,Easy, done
+15,Hash Table,https://leetcode.com/problems/group-anagrams/ ,Medium, done
+16,Hash Table,https://leetcode.com/problems/valid-anagram/ ,Easy, 
 17,Hash Table,https://leetcode.com/problems/daily-temperatures/ ,Medium
 18,Hash Table,https://leetcode.com/problems/subarray-sum-equals-k/ ,Medium
 19,Hash Table,https://leetcode.com/problems/sort-characters-by-frequency/ ,Medium
 20,Hash Table,https://leetcode.com/problems/valid-sudoku/ ,Medium
 21,Hash Table,https://leetcode.com/problems/repeated-dna-sequences/ ,Medium
+
+https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/ random
+
 22,Binary Search,https://leetcode.com/problems/sqrtx/ ,Easy
 23,Binary Search,https://leetcode.com/problems/guess-number-higher-or-lower/ ,Easy
 24,Binary Search,https://leetcode.com/problems/search-in-rotated-sorted-array/,
