@@ -8,28 +8,28 @@
 7,Two Pointers,https://leetcode.com/problems/3sum/, done
 8,Two Pointers,https://leetcode.com/problems/remove-duplicates-from-sorted-array/, done
 9,Two Pointers,https://leetcode.com/problems/reverse-vowels-of-a-string/ ,Easy done
-10,Hash Table,https://leetcode.com/problems/jewels-and-stones/ ,Easy, done
+10,Hash Table, https://leetcode.com/problems/jewels-and-stones/ ,Easy, done
 11,Hash Table,https://leetcode.com/problems/top-k-frequent-elements/ ,Medium, # use heap, done
 12,Hash Table,https://leetcode.com/problems/single-number/ ,Easy, done
 13,Hash Table,https://leetcode.com/problems/encode-and-decode-tinyurl/ ,Medium, done
 14,Hash Table,https://leetcode.com/problems/happy-number/ ,Easy, done
 15,Hash Table,https://leetcode.com/problems/group-anagrams/ ,Medium, done
-16,Hash Table,https://leetcode.com/problems/valid-anagram/ ,Easy, 
-17,Hash Table,https://leetcode.com/problems/daily-temperatures/ ,Medium
-18,Hash Table,https://leetcode.com/problems/subarray-sum-equals-k/ ,Medium
-19,Hash Table,https://leetcode.com/problems/sort-characters-by-frequency/ ,Medium
-20,Hash Table,https://leetcode.com/problems/valid-sudoku/ ,Medium
-21,Hash Table,https://leetcode.com/problems/repeated-dna-sequences/ ,Medium
+16,Hash Table,https://leetcode.com/problems/valid-anagram/ ,Easy, done
+17,Hash Table,https://leetcode.com/problems/daily-temperatures/ ,Medium, done
+18,Hash Table,https://leetcode.com/problems/subarray-sum-equals-k/ ,Medium, done with help
+19,Hash Table,https://leetcode.com/problems/sort-characters-by-frequency/ ,Medium, done
+20,Hash Table,https://leetcode.com/problems/valid-sudoku/ ,Medium, done
+21,Hash Table,https://leetcode.com/problems/repeated-dna-sequences/ ,Medium, done
 
-https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/ random
+https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/ random not done, time limit exceeded
 
-22,Binary Search,https://leetcode.com/problems/sqrtx/ ,Easy
-23,Binary Search,https://leetcode.com/problems/guess-number-higher-or-lower/ ,Easy
-24,Binary Search,https://leetcode.com/problems/search-in-rotated-sorted-array/,
+22,Binary Search,https://leetcode.com/problems/sqrtx/ ,Easy, wtf ???
+23,Binary Search,https://leetcode.com/problems/guess-number-higher-or-lower/ ,Easy,  done
+24,Binary Search,https://leetcode.com/problems/search-in-rotated-sorted-array/, Medium,  time limit exceeded
 25,Binary Search,https://leetcode.com/problems/first-bad-version/ ,Easy
-26,Binary Search,https://leetcode.com/problems/find-peak-element/ ,Medium
+26,Binary Search,https://leetcode.com/problems/find-peak-element/ ,Medium, done with hint
 27,Binary Search,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ ,Medium
-28,Binary Search,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/ ,Medium
+28,Binary Search,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/ ,Medium, Done
 29,Binary Search,https://leetcode.com/problems/find-k-closest-elements/,
 30,Binary Search,https://leetcode.com/problems/closest-binary-search-tree-value/,
 31,Binary Search,https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/ ,Medium
@@ -177,7 +177,7 @@ https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/ random
 173,Tree,https://leetcode.com/problems/kth-smallest-element-in-a-bst/ ,Medium
 174,Tree,https://leetcode.com/problems/inorder-successor-in-bst-ii/ ,Medium
 175,DP,https://leetcode.com/problems/number-of-corner-rectangles/ ,Medium
-176,"DP, DFS",https://leetcode.com/problems/android-unlock-patterns/ ,Medium
+176,"DP, DFS",https://leetcode.com/problems/android-unlock-patterns/ ,Medium , locked
 177,Tree,https://leetcode.com/problems/binary-tree-maximum-path-sum/ ,Hard
 178,DP,https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/,
 179,DP,https://leetcode.com/problems/maximal-square/ ,Medium
