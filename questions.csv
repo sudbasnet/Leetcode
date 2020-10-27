@@ -36,17 +36,17 @@ https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/ random 
 32,Greedy,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/ ,Easy, done 
 33,Greedy,https://leetcode.com/problems/queue-reconstruction-by-height/ ,Medium, done
 34,Greedy,https://leetcode.com/problems/remove-duplicate-letters ,Hard, done, needed some hint
-35,Greedy,https://leetcode.com/problems/meeting-rooms-ii/,
-36,DP,https://leetcode.com/problems/maximum-subarray ,Easy
-37,DP,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/ ,Easy
-38,DP,https://leetcode.com/problems/climbing-stairs/ ,Easy
+35,Greedy,https://leetcode.com/problems/meeting-rooms-ii/, ,Locked
+36,DP,https://leetcode.com/problems/maximum-subarray ,Easy,  done
+37,DP,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ ,Easy, done
+38,DP,https://leetcode.com/problems/climbing-stairs/ ,Easy, time limit exceeded --> done
 39,DP,https://leetcode.com/problems/counting-bits/ ,Medium
 40,DP,https://leetcode.com/problems/palindromic-substrings/ ,Medium
 41,DP,https://leetcode.com/problems/longest-arithmetic-sequence/ ,Medium
 42,DP,https://leetcode.com/problems/longest-palindromic-substring/ ,Medium
 43,DP,https://leetcode.com/problems/regular-expression-matching/ ,Hard
 44,Divide and Conquer,https://leetcode.com/problems/median-of-two-sorted-arrays/ ,Hard
-45,Divide and Conquer,https://leetcode.com/problems/merge-k-sorted-lists/,
+45,Divide and Conquer,https://leetcode.com/problems/merge-k-sorted-lists/, 
 46,Divide and Conquer,https://leetcode.com/problems/kth-largest-element-in-an-array/,
 47,BackTracking,https://leetcode.com/problems/generate-parentheses/ ,Medium
 48,BackTracking,https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ,Medium
