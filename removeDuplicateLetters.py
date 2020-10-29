@@ -31,4 +31,4 @@ class Solution:
                 result += s[i]
                 letterAdded[s[i]] = True
         
-        return result;
+        return result

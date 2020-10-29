@@ -48,8 +48,8 @@ https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/ random 
 44,Divide and Conquer,https://leetcode.com/problems/median-of-two-sorted-arrays/ ,Hard
 45,Divide and Conquer,https://leetcode.com/problems/merge-k-sorted-lists/, 
 46,Divide and Conquer,https://leetcode.com/problems/kth-largest-element-in-an-array/,
-47,BackTracking,https://leetcode.com/problems/generate-parentheses/ ,Medium
-48,BackTracking,https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ,Medium
+47,BackTracking,https://leetcode.com/problems/generate-parentheses/ ,Medium, done
+48,BackTracking,https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ,Medium, done
 49,Segment Tree,https://leetcode.com/problems/the-skyline-problem/,
 50,Segment Tree,https://leetcode.com/problems/count-of-smaller-numbers-after-self/,
 51,DP,https://leetcode.com/problems/house-robber/ ,Easy
