@@ -79,5 +79,5 @@ class Solution:
 
                 coinChanges[amt] = min(coinChanges.get(amt, float("inf")), numOfCoins)
                  
-        return coinChanges[amount] if amount in coinChanges else -1
+        return coinChanges[amount] if (amount in coinChanges) else -1
                         
