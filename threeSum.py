@@ -1,5 +1,5 @@
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: [int]) -> [[int]]:
         """
         the best solution I can see is a n^2 solution. Sometimes those are not so bad
         
