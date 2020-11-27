@@ -1,56 +1,42 @@
 class Solution:
-    def trap(self, height) -> int:
-        if len(height) < 3:
-            return 0
+    def trap(self, height: [int]) -> int:
+        """
+        have leftBracket and rightBracket,
+        start at the position where height[i] > height[i+1]
+        make that position both leftBracket and rightBracket, assign rightBracket the 
+        max height on the right
+        now move the left and sum all water based on the gap
+        until you either the rightBracket or anything larger than leftBracket.
+        if you reach rightBracket, reset leftBrackt to current location, and find next rightBracket
+        if you reach anything larger than leftBracket, this becomes new leftBracket
+        """
+                
+        # calculate the index with the largest height so far
+        # idea is to know what my right-most limit is everytime i'm moving in the array
         
-        water = 0
-        leftI = 0
-        rightI = j = 2
-        
-        # go from back to front for less time
-        while j <= len(height) - 1:
-            if height[j] > height[rightI]:
-                rightI = j
-            j += 1
-            
+        largestRightHeights = [-1] * len(height)
+        largestLeftHeights = [-1] * len(height)
+        rightIndex = len(height) - 1
+        leftIndex = 0
+        # going from back to front, 
+        for i in reversed(range(len(height))):
+            largestRightHeights[i] = i if height[i] > height[rightIndex] else rightIndex
+            rightIndex = largestRightHeights[i]
+        # going from front to back, 
         for i in range(len(height)):
-            if i == 0 or i == len(height) - 1:
-                continue
-            # if the current height > height[leftI]: leftI = i
-            if height[i] >= height[leftI]:
-                leftI = i
-            # if i >= rightI, then find the next rightI
-            if i == rightI:
-                # findNextMaxOnRight
-                j = rightI = i + 1
-                while j <= len(height) - 1:
-                    if height[j] > height[rightI]:
-                        rightI = j
-                    j += 1
-            water += max(min(height[leftI], height[rightI]) - height[i], 0)             
-        return water
-## the above solution is still slower that the efficient solution, but I couldnt solve it
-
-### too slow
-#         # min(left, right) - height[i] <-- amount of water at index i
-#         # maximum height on my left and maximum height on my right, min of that - height[i]
-#         water = 0
-#         left, right = 0, 0
+            largestLeftHeights[i] = i if height[i] > height[leftIndex] else leftIndex
+            leftIndex = largestLeftHeights[i]     
+            
+        # now just traverse through the array and calculae the difference in heights
+        position = 1
+        totalWater = 0
+        while position < len(height) - 1:
+            rightBracket = largestRightHeights[position]
+            leftBracket = largestLeftHeights[position]
+            water = min(height[leftBracket], height[rightBracket]) - height[position]
+            totalWater += max(water, 0)   
+            position += 1
         
-#         for i in range(len(height)):
-#             if i == 0 or i == len(height) - 1:
-#                 continue
-#             start, end = i - 1, i + 1
-#             left = height[start]
-#             right = height[end]
+        return totalWater
+
             
-#             while start >= 0 or end <= len(height) - 1:
-#                 if start >= 0 and height[start] > left:
-#                     left = height[start]
-#                 if end <= len(height) - 1 and height[end] > right:
-#                     right = height[end]
-#                 start -= 1
-#                 end += 1
-#             water += max(min(left, right) - height[i], 0)
-            
-#         return water

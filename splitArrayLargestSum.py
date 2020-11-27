@@ -1,5 +1,5 @@
 class Solution:
-    def splitArray(self, nums: List[int], m: int) -> int:
+    def splitArray(self, nums: [int], m: int) -> int:
         """
         One of the solutions that I can think of is by considering multiple options
         but here, the branches could be too large. For example, I cant just consider 

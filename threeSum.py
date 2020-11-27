@@ -12,15 +12,27 @@ class Solution:
         
         note that there could be duplicates so we need to save all the indices that a certain number is seen
         """
+
+        """
+        OK!!! this took a while!!!
+        first I stored everything in a dictionary with the number of repeatations of each character. 
+        now if 0 is repeated 3 or more times, we know there should be a [0, 0, 0], we add that
+        if a number is repeated more than once, we look for -(num+num) in dictionary, if exists, add the combo
+        finally, we create a new nums list with all unique characters.
+        now, we go through the new list one more time to store the location of each number
+        now we are ready to do the double for loop and search for the third element
+        """
+
         results = []
-            
+        
+        # O(n)
         seenNums = {}
         for i in range(len(nums)):
             seenNums[nums[i]] = seenNums.get(nums[i], 0) + 1
         
-        print("seenNums: ", seenNums)
         newNums = []
         newSeenNums = {}
+        # O(n)
         for num, repeats in seenNums.items():
             if num == 0 and repeats >= 3:
                 results.append([0, 0, 0])
@@ -28,7 +40,8 @@ class Solution:
                 results.append([num, num, -(num+num)])
             newSeenNums[num] = len(newNums)
             newNums.append(num)
-        
+
+        # O(n^2)
         for i in range(len(newNums)-2):
             for j in range(i+1, len(newNums)-1):
                 target = -(newNums[i]+newNums[j])
@@ -36,14 +49,5 @@ class Solution:
                     results.append([newNums[i], newNums[j], target])
                     
         return results
-        """
-        OK!!! this took a while!!!
-        first I stored everything in a dictionary with the number of repeatations of each character. 
-        now if 0 is repeated 3 or more times, we know there should be a [0, 0, 0], we add that
-        if a number id repeated more than once, we look for -(num+num) in dictionary, if exists, add the combo
-        finally, we create a new nums list with all unique characters.
-        now, we go through the new list one more time to store the location of each number
-        now we are ready to do the double for loop and search for the third element
-        """
         
                       
