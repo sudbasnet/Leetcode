@@ -12,7 +12,7 @@ class Solution:
             nextLargestArray = [0 for a in A]
             # storing index and value, sorting by value
             sortedA = sorted([[a, i] for i, a in enumerate(A)])
-            for [a, i] in sortedA:
+            for [_, i] in sortedA:
                 while stack and stack[-1] <= i:
                     nextLargestArray[stack.pop()] = i
                 if not stack or stack[-1] > i:
@@ -24,7 +24,7 @@ class Solution:
             nextSmallestArray = [0 for a in A]
             # storing index and value, sorting by value
             sortedA = sorted([[-a, i] for i, a in enumerate(A)])
-            for [a, i] in sortedA:
+            for [_, i] in sortedA:
                 while stack and stack[-1] <= i:
                     nextSmallestArray[stack.pop()] = i
                 if not stack or stack[-1] > i:
