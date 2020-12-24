@@ -31,52 +31,41 @@ so that I treat everything like a BFS
 
 everything that satisfies a certain pattern is a level of BFS
 """
-def ladderLength(beginWord: str, endWord: str, wordList) -> int:
-    if endWord not in wordList:
-        return 0
-    
-    # returns all the words matching a pattern except if it is in
-    # the doNotIncludeList
-    def getWordsWithPattern(pattern, wordList, doNotIncludeList):
-        # the pattern would be of the form "*ot"
-        # we return anything like "hot" "not" "lot" "got"
-        matchedListOfWords = []
+import queue
+
+class Solution:
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        seenWords = {beginWord: True}
         for word in wordList:
-            wordIsValid = True
-            for i in range(len(word)):
-                if word[i] != pattern[i] and pattern[i] != "*":
-                    wordIsValid = False
-            if wordIsValid and word not in doNotIncludeList:
-                matchedListOfWords.append(word)
-        return matchedListOfWords
-
-    level = 1
-    q = queue.Queue()
-    q.put(beginWord)
-    q.put("#")
-
-    # we are adding a "#" to tell when a new level is reached
-    # since we will always have a "#", the size will be 1 at least
-    while q.qsize() > 1:
-        currentWord = q.get()
-        # just marking when we have reached another level
-        if currentWord == "#":
-            level += 1
-            currentWord = q.get()
-            q.put("#")
-
-        for i in range(len(currentWord)):
-            pattern = currentWord[:i] + "*" + currentWord[i+1:]
-            matchedWords = getWordsWithPattern(pattern, wordList, [currentWord])
-            if endWord in matchedWords:
-                return level + 1
-            for matchedWord in matchedWords:
-                wordList.remove(matchedWord)
-                q.put(matchedWord)
-    return 0
+            seenWords[word] = False
+            
+        seenPatterns = []
+        q = queue.Queue()
+        q.put(beginWord)
         
-beginWord = "hit",
-endWord = "cog",
-wordList = ["hot","dot","dog","lot","log","cog"]
-
-print(ladderLength(beginWord, endWord, wordList))
+        level = 1
+        levelItems = 1
+         
+        while not q.empty():
+            currentWord = q.get()
+            for i in range(len(currentWord)):
+                if currentWord[:i] + '*' + currentWord[i+1:] in seenPatterns:
+                    continue
+                for word in wordList:
+                    if seenWords[word]:
+                        continue
+                    if word[:i] + word[i+1:] == currentWord[:i] + currentWord[i+1:]:
+                        if word == endWord:
+                            return level + 1
+                        q.put(word)
+                        seenWords[word] = True
+                seenPatterns.append(currentWord[:i] + '*' + currentWord[i+1:])
+                
+            levelItems -= 1
+            if levelItems == 0:
+                levelItems = q.qsize()
+                level += 1
+                
+        return 0
+        # if m is len of beginWord
+        # if n is num of words <- O(m * n^2)
