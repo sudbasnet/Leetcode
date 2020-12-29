@@ -1,5 +1,5 @@
 class Solution:
-    def firstMissingPositive(self, nums: List[int]) -> int:
+    def firstMissingPositive(self, nums: [int]) -> int:
         '''
         I looked at the solution. Couldn't figure out myself.
         The idea is:
