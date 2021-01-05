@@ -35,7 +35,6 @@ class Solution:
                         subSeqLen = 1 + getSubSequence(j, diff)
                         self.seen[(i, diff)] = subSeqLen
                         return subSeqLen
-                        break
             return 0
         
         maxlen = 2
