@@ -88,7 +88,7 @@ class Trie:
             else: return False
         return True
 
-    def wordsStartingWith(self, prefix: str) -> [str]:
+    def wordsStartingWith(self, prefix: str) -> list[str]:
         matchedWords = []
         current = self.node
         for pre in prefix:
