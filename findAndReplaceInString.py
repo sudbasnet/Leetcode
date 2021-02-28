@@ -1,5 +1,5 @@
 class Solution:
-    def findReplaceString(self, S: str, indexes: [int], sources: [str], targets: [str]) -> str:
+    def findReplaceString(self, S: str, indexes: list[int], sources: list[str], targets: list[str]) -> str:
         ''' Dont jump to code '''
         ''' 
         Put the problems in the same list or tuple and sort by the indexes.
@@ -14,5 +14,5 @@ class Solution:
                 updatedStr = updatedStr[:shiftsBy+i] + \
                     target + updatedStr[shiftsBy+i+len(source):]
                 shiftsBy += len(target) - len(source)
-                
+
         return updatedStr

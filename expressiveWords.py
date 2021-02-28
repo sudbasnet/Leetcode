@@ -20,6 +20,8 @@ We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 o
 
  
  """
+
+
 class Solution:
     def groupWords(self, word):
         letter = ''
@@ -31,21 +33,21 @@ class Solution:
                 letter = word[i]
                 groups.append([letter, 1])
         return groups
-        
+
     def canExtend(self, groupedS, word):
         groupedWord = self.groupWords(word)
         if len(groupedS) != len(groupedWord):
             return False
-        
+
         for i in range(len(groupedS)):
             if groupedS[i][0] != groupedWord[i][0]:
                 return False
             if groupedS[i][1] != groupedWord[i][1] and (groupedWord[i][1] > groupedS[i][1] or groupedS[i][1] < 3):
                 return False
-            
+
         return True
-    
-    def expressiveWords(self, S: str, words: List[str]) -> int:
+
+    def expressiveWords(self, S: str, words: list[str]) -> int:
         """
         I will have to go linearly for each word
         if the stretchy word and the letter in the main word is the same,
@@ -56,6 +58,5 @@ class Solution:
         groupedS = self.groupWords(S)
         for word in words:
             result += (1 if self.canExtend(groupedS, word) else 0)
-        
+
         return result
-                

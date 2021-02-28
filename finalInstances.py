@@ -6,6 +6,8 @@ if more than 60%, double the number of instance, dont double if double > 2 * 10^
 if doubled or halved (taken any action), then dont do anything for next 10 seconds (next 10 utilization records)
 
 """
+import math
+
 
 def finalInstances(instances, averageUtil):
     upperLimit = 2 * (10**8)
