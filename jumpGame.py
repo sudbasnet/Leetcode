@@ -1,5 +1,5 @@
 class Solution:
-    def canJump(self, nums: List[int]) -> bool:
+    def canJump(self, nums: list[int]) -> bool:
         """
         at each point in the list, I am looking at how far can I reach,
         the max I can reach is the current value I am at. 

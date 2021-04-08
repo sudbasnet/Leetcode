@@ -33,32 +33,32 @@ Output: [[1,7]]
 
 
 class Solution:
-    def insert(self, intervals: [[int]], newInterval: [int]) -> [[int]]:
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         """
         basically any interval whose endtime is between the newInterval's start and end
         OR
         any interval whose starttime is between newInterval's start and end
         OR 
         if the existing interval completely overlaps the newInterval
-        
-        
+
+
         break the loop if start of the current interval is > newIntervalEnd
-        
+
         newIntervalStart = min(interval's start time, newIntervalStart)
         newIntervalEnd = max(interval's endtime, newIntervalEnd)
-        
-        
+
+
         """
         # edge case
         if not intervals:
             return [newInterval]
-        
+
         result = []
         [newStart, newEnd] = newInterval
-        
+
         # adding this for the 3rd condition check below in the for loop
         intervals.append([float("inf"), float("inf")])
-        
+
         for i in range(len(intervals)):
             # if we are looking at overlapping intervals with the newInterval
             # mash them up in one and keep updating the newStart and newEnd
@@ -66,28 +66,25 @@ class Solution:
             newIntervalOverlapsEnd = newStart <= intervals[i][1] <= newEnd
             newIntervalOverlapsStart = newStart <= intervals[i][0] <= newEnd
             existingIntervalOverlaps = intervals[i][0] <= newStart <= newEnd <= intervals[i][1]
-            
+
             # anything that comes before the newInterval
             # add it to the result directly
             if intervals[i][1] < newStart:
                 result.append(intervals[i])
-            
+
             # if overlap is seen then update the newStart and newEnd
             elif newIntervalOverlapsStart or newIntervalOverlapsEnd or existingIntervalOverlaps:
                 newStart = min(intervals[i][0], newStart)
                 newEnd = max(intervals[i][1], newEnd)
-            
+
             # once we see an interval that is outside the range of newStart and newEnd
-            # we can stop the looping, add the (newStart, newEnd), and the intervals beyond 
+            # we can stop the looping, add the (newStart, newEnd), and the intervals beyond
             # the current position
-            ## I added a new interval [float("inf"), float("inf")] above, so this is always reached
+            # I added a new interval [float("inf"), float("inf")] above, so this is always reached
             elif intervals[i][0] > newEnd:
                 result.append([newStart, newEnd])
                 result += intervals[i:]
                 break
-        
+
         # return everything but the last element which is the dummy I added
         return result[:len(result) - 1]
-    
-                
-        
